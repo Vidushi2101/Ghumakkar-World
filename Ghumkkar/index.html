@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ghumakkar World</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        header::before {
+            background: url(pics/ab.jpg) no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 110%;
+            height: 250%;
+            z-index: -1;
+            opacity: 0.2;
+            color: aliceblue;
+        }
+
+        header {
+            color: white;
+        }
+
+        .navigation {
+            font-family: 'Bree Serif', serif;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            position: fixed;
+            width: 100%;
+            top: -25px;
+            z-index: 1000;
+            /* Set a high z-index to ensure it appears above other elements */
+        }
+
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        section {
+            height: 344px;
+            font-family: 'Bree Serif', serif;
+            margin: 100px 230px 3px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            /* Adjust the padding to reduce spacing */
+            margin: 3px;
+            /* Adjust the margin to reduce spacing */
+            color: white;
+            font-size: 45px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        tr {
+            /* background-color: rgba(255, 255, 255, 0.1); */
+        }
+
+
+        /* Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        table {
+            animation: fadeIn 3s forwards;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            padding: 550px;
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li><a href="index.html" target="_blank">HOME</a></p>
+                <li><a href="about.html" target="_blank">ABOUT</a></p>
+                <li><a href="service.html" target="_blank">SERVICE</a></p>
+                <li><a href="contact.html" target="_blank">CONTACT</a></p>
+
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to Ghumakkar World</h1>
+        <h2>"Your travel companion, crafting unforgettable journeys with ease. Where dreams take flight, and adventures
+            find a home"</h2>
+    </section>
+
+    <!-- Animated table for website names and logos -->
+    <table>
+        <thead>
+            <tr>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>➡️</td>
+                <td>MAKE MY TRIP</td>
+                <td>CLICK HERE 🔜</td>
+                <td><a href="https://www.makemytrip.com/" target="_blank" title="MAKE MY TRIP"><img
+                            src="pics/MMT.png"></a>
+                </td>
+            </tr>
+            <tr>
+                <td>➡️</td>
+                <td>GOIBIBO</td>
+                <td>CLICK HERE 🔜</td>
+                <td><a href="http://www.goibibo.com" target="_blank" title="GOIBIBO"><img src="pics/gb1.png"></a></td>
+            </tr>
+            <tr>
+                <td>➡️</td>
+                <td>CLEARTRIP</td>
+                <td>CLICK HERE 🔜</td>
+                <td><a href="http://www.cleartrip.com" target="_blank" title="CLEARTRIP"><img src="pics/ct.png"></a>
+                </td>
+            </tr>
+            <tr>
+                <td>➡️</td>
+                <td>YATRA</td>
+                <td>CLICK HERE 🔜</td>
+                <td><a href="http://www.yatra.com" target="_blank" title="YATRA"><img src="pics/yt.png"></a></td>
+            </tr>
+            <tr>
+                <td>➡️</td>
+                <td>IXIGO</td>
+                <td>CLICK HERE 🔜</td>
+                <td><a href="http://www.ixigo.com" target="_blank" title="IXIGO"><img src="pics/ixi.png"></a></td>
+            </tr>
+            <tr>
+                <td>➡️</td>
+                <td>REDBUS</td>
+                <td>CLICK HERE 🔜</td>
+                <td><a href="http://www.redbus.com" target="_blank" title="REDBUS"><img src="pics/bus.png"></a></td>
+            </tr>
+            <tr>
+                <td>➡️</td>
+                <td>TRIVAGO</td>
+                <td>CLICK HERE 🔜</td>
+                <td><a href="http://www.trivago.com" target="_blank" title="TRIVAGO"><img
+                            src="pics/Trivago-Symbol.png"></a></td>
+            </tr>
+            <tr>
+                <td>➡️</td>
+                <td>IRCTC</td>
+                <td>CLICK HERE 🔜</td>
+                <td><a href="http://www.irctc.com" target="_blank" title="IRCTC"><img src="pics/irctc.png"></a></td>
+            </tr>
+            <tr>
+                <td>➡️</td>
+                <td>AIR INDIA</td>
+                <td>CLICK HERE 🔜</td>
+                <td><a href="http://www.airindia.com" target="_blank" title="AIR INDIA"><img
+                            src="pics/Air_India.svg.png"></a></td>
+            </tr>
+            <tr>
+                <td>➡️</td>
+                <td>OYO</td>
+                <td>CLICK HERE 🔜</td>
+                <td><a href="http://www.oyo.com" target="_blank" title="OYO"><img src="pics/oyo.png"></a></td>
+            </tr>
+
+
+
+
+
+        </tbody>
+
+
+    </table>
+
+    <footer>
+        &copy;Vidushi Vani
+    </footer>
+</body>
+
+</html>

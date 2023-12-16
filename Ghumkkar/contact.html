@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your Hotel Name</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url(pics/con.png);
+            /* Replace with your hotel background image */
+            background-size: cover;
+            color:darkgreen;
+        }
+        .navigation {
+            font-family: 'Bree Serif', serif;
+            font-size: 35px;
+            display: flex;
+            align-items: center;
+            /* align-items: center; Center vertically */
+            justify-content: center;
+            
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        header {
+            /* background-color: rgba(0, 0, 0, 0.5); */
+            color: darkgreen;
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+        }
+
+        main {
+            padding: 58px;
+            text-align: center;
+            margin: 48px auto;
+            width: 54%;
+            background-color: rgba(176, 221, 158, 0.8);
+            border-radius: 38px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            margin-top: 31px;
+    font-size: 37px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #a83333;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            /* color: rgb(84, 172, 44); */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: rgb(12, 0, 0);
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        
+            <nav class="navbar">
+                <ul class="navigation">
+                    <li><a href="index.html" target="_blank">HOME</a></p>
+                    <li><a href="about.html" target="_blank">ABOUT</a></p>
+                    <li><a href="service.html" target="_blank">SERVICE</a></p>
+                    <li><a href="contact.html" target="_blank">CONTACT</a></p>
+    
+                </ul>
+            </nav>
+        
+    </section>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <main>
+        <form id="contactForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="contact no">Contact no:</label>
+            <input type="contact no" id="contact no" name="contact no" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        &copy;VidushiVani 
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Add your form submission logic here
+            alert('Form submitted!');
+        });
+    </script>
+
+</body>
+
+</html>

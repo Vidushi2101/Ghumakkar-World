@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essential Services</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url(pics/services.jpg); /* Replace with the path to your background image */
+            background-size: cover;
+            color: rgb(255, 0, 0);
+            text-align: center;
+            justify-content: center;
+        }
+        
+
+
+        .navigation {
+            font-family: 'Bree Serif', serif;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            /* align-items: center; Center vertically */
+            justify-content: center;
+            color: black;
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .service-box {
+            width: calc(20% - 20px); /* Set width for 5 boxes per row with margin between them */
+            margin-bottom: 20px;
+            opacity: 0; /* Set initial opacity to 0 for the fade-in effect */
+            background-color: rgba(110, 209, 53, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            animation: fadeIn 4s forwards; /* Apply the fade-in animation */
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px); /* Optional: Add a slight vertical movement */
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        
+            <nav class="navbar">
+                <ul class="navigation">
+                    <li><a href="index.html" target="_blank">HOME</a></p>
+                    <li><a href="about.html" target="_blank">ABOUT</a></p>
+                    <li><a href="service.html" target="_blank">SERVICE</a></p>
+                    <li><a href="contact.html" target="_blank">CONTACT</a></p>
+    
+                </ul>
+            </nav>
+        
+    </section>
+
+    <header>
+        <h1>Services Provided By Us</h1>
+    </header>
+
+    <main>
+        <div class="service-box">
+            <h2>Flight Bookings</h2>
+            <p>It allows users to search, compare, and book domestic and international flights. Users can find various options based on airlines, prices, and schedules.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Hotel Reservations</h2>
+            <p>Users can book hotels for their stay through it. The platform provides a wide range of accommodation options, including budget hotels, luxury resorts, and more.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Holiday Packages</h2>
+            <p>It offers curated holiday packages that include flights, hotels, and sometimes other services like sightseeing tours. These packages are designed to simplify travel planning.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Bus Ticket Booking</h2>
+            <p>It facilitates the booking of bus tickets for various routes and operators. This service is particularly useful for travelers who prefer bus transportation.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Train Reservations</h2>
+            <p>Users can book train tickets through it, checking availability, schedules, and class options for Indian Railways.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Car Rentals</h2>
+            <p>It provides options for renting cars, allowing users to book vehicles for local transportation during their travels.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Travel Insurance</h2>
+            <p>Users can purchase travel insurance through it to ensure coverage for unforeseen circumstances during their journey.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Visa Services</h2>
+            <p> It assists users in obtaining visas for certain destinations. This service helps streamline the visa application process for international travel.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Activities and Experiences</h2>
+            <p>The platform offers a variety of activities and experiences, including sightseeing tours, adventure activities, and more, to enhance the travel experience.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Cruise Bookings</h2>
+            <p>Some platforms also facilitate cruise bookings, allowing users to explore cruise options for their preferred destinations.</p>
+        </div>
+
+        
+
+
+        
+
+
+        
+        <!-- Add more service boxes as needed -->
+
+    </main>
+
+    <footer>
+        &copy;Vidushi Vani
+    </footer>
+
+</body>
+
+</html>
